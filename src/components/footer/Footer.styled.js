@@ -19,7 +19,7 @@ export const Row = styled.div`
   padding: 0 40px;
 `;
 
-export const InfoBox = styled.div`
+export const SocialNetworkBox = styled.div`
   display: flex;
   flex-direction: column;
   grid-column: span 3;

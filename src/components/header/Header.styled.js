@@ -82,4 +82,5 @@ export const Row = styled.div`
   gap: 0 20px;
   padding: 0 24px;
   margin: 0 auto;
+  position: relative;
 `;

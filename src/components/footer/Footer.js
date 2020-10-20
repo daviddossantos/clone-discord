@@ -2,7 +2,7 @@ import React from "react";
 import {
   Container,
   Row,
-  InfoBox,
+  SocialNetworkBox,
   SectionBox,
   BoxItem,
   Item,
@@ -21,12 +21,12 @@ import { ReactComponent as Facebook } from "./../../assets/facebook.svg";
 import { ReactComponent as Twitter } from "./../../assets/twitter.svg";
 import { ReactComponent as Youtube } from "./../../assets/youtube.svg";
 import { ReactComponent as Logo } from "./../../assets/discord.svg";
-import { ReactComponent as Down } from "./../../assets/down.svg";
+
 export default function Footer() {
   return (
     <Container>
       <Row>
-        <InfoBox>
+        <SocialNetworkBox>
           <InfoItem>Seu lugar para conversar</InfoItem>
           <ContainerLanguage>
             <ImageBrazil src={brazil} />
@@ -46,7 +46,7 @@ export default function Footer() {
               <Youtube />
             </ButtonSocial>
           </ContainerLanguage>
-        </InfoBox>
+        </SocialNetworkBox>
         <SpaceBox />
         <SectionBox>
           <BoxItem>

@@ -64,40 +64,37 @@ export default function Header() {
             <ButtonBlack>Abra o Discord no seu navegador</ButtonBlack>
           </ContainerButton>
         </div>
+        <img
+          src={temple}
+          style={{
+            position: "absolute",
+            left: "50%",
+            height: "auto",
+            bottom: 0,
+            marginLeft: -506,
+          }}
+        />
+        <img
+          src={people}
+          style={{
+            position: "absolute",
+            left: "50%",
+            height: "auto",
+            bottom: 0,
+            marginLeft: -1300,
+          }}
+        />
+        <img
+          src={home}
+          style={{
+            position: "absolute",
+            left: "50%",
+            height: "auto",
+            bottom: 0,
+            marginLeft: 368,
+          }}
+        />
       </Row>
-      <img
-        src={temple}
-        style={{
-          position: "absolute",
-          display: "block",
-          left: "50%",
-          height: "auto",
-          bottom: 0,
-          marginLeft: -506,
-        }}
-      />
-      <img
-        src={people}
-        style={{
-          position: "absolute",
-          display: "block",
-          left: "50%",
-          height: "auto",
-          bottom: 0,
-          marginLeft: -1300,
-        }}
-      />
-      <img
-        src={home}
-        style={{
-          position: "absolute",
-          display: "block",
-          left: "50%",
-          height: "auto",
-          bottom: 0,
-          marginLeft: 368,
-        }}
-      />
     </div>
   );
 }
