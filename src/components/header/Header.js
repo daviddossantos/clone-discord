@@ -26,6 +26,7 @@ export default function Header() {
         flexDirection: "column",
         width: "100%",
         background: "#2A5EE8",
+        overflowX: "hidden",
       }}
     >
       <ContainerHeader>
@@ -39,7 +40,6 @@ export default function Header() {
         </NavContainer>
         <ButtonItem>Entrar</ButtonItem>
       </ContainerHeader>
-
       <Row>
         <div
           style={{
@@ -64,6 +64,14 @@ export default function Header() {
             <ButtonBlack>Abra o Discord no seu navegador</ButtonBlack>
           </ContainerButton>
         </div>
+      </Row>
+      <div
+        style={{
+          position: "relative",
+          height: "100%",
+          width: "100%",
+        }}
+      >
         <img
           src={temple}
           style={{
@@ -94,7 +102,7 @@ export default function Header() {
             marginLeft: 368,
           }}
         />
-      </Row>
+      </div>
     </div>
   );
 }

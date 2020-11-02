@@ -14,14 +14,19 @@ export const GlobalStyle = createGlobalStyle`
   font-size: 100%;
   vertical-align: baseline;
 }
+
+html,body{
+width: 100%;
+height:100%
+}
 body {
   font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: 400;
   line-height:400px;
-  background-color:#f92;
   text-rendering: optimizeLegibility;
   line-height: 1.15;
-}
+  background-color:yellow;
+
 }
 
 
