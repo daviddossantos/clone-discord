@@ -41,6 +41,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [JavaScript](https://www.javascript.com/)
 - [Styled Components](https://styled-components.com/)
+- [FlexBox](https://origamid.com/projetos/flexbox-guia-completo/)
+- [CssGrid](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
 
 Feito com 💖 by David Cruz 😀 [Entre em contato!](https://www.linkedin.com/in/daviddossantoscruz/)
 
